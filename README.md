@@ -10,9 +10,9 @@ Built as an AI application, this project leverages Google's Gemini multimodal ca
 
 ## 📸 Screenshots & Visual Preview
 
-| Dashboard & Image Upload | AI Pathology Diagnosis & Recommendations |
-| :---: | :---: |
-| ![Dashboard Screenshot](https://raw.githubusercontent.com/fnc931-star/Local-Crop-Guard/main/docs/screenshots/dashboard.png) | ![Diagnosis Screenshot](https://raw.githubusercontent.com/fnc931-star/Local-Crop-Guard/main/docs/screenshots/diagnosis.png) |
+| Dashboard & Image Upload | AI Pathology Diagnosis | Symptom Tracker History |
+| :---: | :---: | :---: |
+| ![Dashboard Screenshot](https://raw.githubusercontent.com/fnc931-star/Local-Crop-Guard/main/docs/screenshots/dashboard.png) | ![Diagnosis Screenshot](https://raw.githubusercontent.com/fnc931-star/Local-Crop-Guard/main/docs/screenshots/diagnosis.png) | ![Tracker Screenshot](https://raw.githubusercontent.com/fnc931-star/Local-Crop-Guard/main/docs/screenshots/tracker.png) |
 
 ---
 
@@ -23,6 +23,15 @@ Built as an AI application, this project leverages Google's Gemini multimodal ca
 * **Dual Treatment Plans:** Clear remediation advice split into organic options (eco-friendly/budget) and chemical/fertilizer interventions.
 * **Soil & Irrigation Guidance:** Specific watering and soil care adjustments tailored to help the plant recover.
 * **Symptom Tracker:** Save past diagnosis results to keep track of plant health progress over time.
+
+---
+
+## 🤖 AI Feature & System Prompt
+
+The application utilizes Google Gemini (`v1beta`) to evaluate leaf health and generate actionable agricultural advice. The model operates under the following structured instructions:
+
+> **System Prompt / Instructions:**
+> *"Analyze the provided image of the plant leaf carefully. Identify any visible plant diseases, fungal infections, pest damage, or nutrient deficiencies. Provide a structured diagnosis containing: 1. Disease Name & Severity Rating (Low/Medium/High), 2. Immediate Actionable Organic Remedies, 3. Chemical/Fertilizer Interventions, and 4. Specific Soil & Irrigation Adjustments to ensure crop recovery."*
 
 ---
 
