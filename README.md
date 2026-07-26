@@ -6,6 +6,14 @@ Built as an AI application, this project leverages Google's Gemini multimodal ca
 
 ---
 
+# Local Crop Guard 🌾 Leaf-Based Plant Pathology App
+
+🌐 **Live Demo:** [https://local-crop-guard-web-58jf.bolt.host/](https://local-crop-guard-web-58jf.bolt.host/)
+
+**Local Crop Guard** is a lightweight web tool built to help farmers, agriculture students, and home gardeners detect plant diseases early using leaf imagery. Instead of waiting days for lab consultations, users can snap a photo, upload it, and receive instant diagnostic feedback alongside actionable organic and chemical treatment plans.
+
+---
+
 ## ✨ Features & Functionality
 
 * **Visual Disease Diagnosis:** Upload or drag-and-drop any affected crop leaf image to receive instantaneous disease identification.
