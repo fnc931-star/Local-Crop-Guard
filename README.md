@@ -41,7 +41,7 @@ Make sure you have Node.js (v18.x or later) installed on your system.
    
 ## 🔮 Future Work & Roadmap
 
-We are actively working on expanding Local Crop Guard's capabilities:
+We are actively working on expanding **Local Crop Guard**'s capabilities:
 
 * **Multi-Language Support (Urdu & Regional Languages):** Integrating localized audio and text translations to make remediation advice accessible to local farming communities.
 * **Offline-First On-Device Inference:** Optimizing lightweight models to allow field diagnosis in remote areas without active internet connectivity.
