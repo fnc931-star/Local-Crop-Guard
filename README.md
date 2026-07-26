@@ -8,6 +8,14 @@ Built as an AI application, this project leverages Google's Gemini multimodal ca
 
 ---
 
+## 📸 Screenshots & Visual Preview
+
+| Dashboard & Image Upload | AI Pathology Diagnosis & Recommendations |
+| :---: | :---: |
+| ![Dashboard Screenshot](https://raw.githubusercontent.com/fnc931-star/Local-Crop-Guard/main/docs/screenshots/dashboard.png) | ![Diagnosis Screenshot](https://raw.githubusercontent.com/fnc931-star/Local-Crop-Guard/main/docs/screenshots/diagnosis.png) |
+
+---
+
 ## ✨ Features & Functionality
 
 * **Visual Disease Diagnosis:** Upload or drag-and-drop any affected crop leaf image to receive instantaneous disease identification.
