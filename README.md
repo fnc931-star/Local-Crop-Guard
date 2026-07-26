@@ -34,11 +34,40 @@ Make sure you have Node.js (v18.x or later) installed on your system.
 
 ### Installation
 
-**Clone the repository:**
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/local-crop-guard.git
+   git clone https://github.com/fnc931-star/Local-Crop-Guard.git
+   cd Local-Crop-Guard
+   ```
 
-   
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up Environment Variables:**
+   Create a `.env` file in the root directory and add your Gemini API key:
+   ```env
+   VITE_GEMINI_API_KEY=your_actual_gemini_api_key_here
+   ```
+
+4. **Launch the application:**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 📍 How to Use
+
+1. Click on the **Diagnosis** tab.
+2. Drag and drop a clear photo of a crop leaf showing visible spots, discoloration, or lesions.
+3. Click **Diagnose Disease**.
+4. Review the disease diagnosis, severity rating, and suggested remediation steps.
+5. Save the report to your **Symptom Tracker** for future reference.
+
+---
+
 ## 🔮 Future Work & Roadmap
 
 We are actively working on expanding **Local Crop Guard**'s capabilities:
@@ -47,3 +76,9 @@ We are actively working on expanding **Local Crop Guard**'s capabilities:
 * **Offline-First On-Device Inference:** Optimizing lightweight models to allow field diagnosis in remote areas without active internet connectivity.
 * **Geo-Location & Weather Risk Alerts:** Combining real-time weather data and location-based humidity trends to predict potential disease outbreaks before symptoms appear.
 * **PDF Diagnostic Report Export:** Enabling one-click downloadable PDF summaries to share with agricultural extension officers or vendors.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
